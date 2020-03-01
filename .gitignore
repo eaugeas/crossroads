@@ -1,0 +1,60 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Autoconf files
+*.cache
+
+# ignore autoconf files
+Makefile
+.deps
+.libs
+config.h
+config.log
+config.status
+libtool
+stamp-h1
+*.log
+*.trs
+
+# ignore binaries
+*_test
+src/io/cp
+src/relay/echo
+
+# Edit specific configurations
+.dir-locals.el
+TAGS
+certs/
+
+# bazel build artifacts
+bazel-*
